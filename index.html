@@ -12,9 +12,27 @@
   </head>  
   <body>
     <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage.!
-    </p>
+<div id="levels">
+ <form name="level-selector">
+  <p id="level-selector-desc">Select a level:</p>
+
+  <div class="radio-container">
+    <input type="radio" id="one" name="level-radio" value="1">
+    <label for="one"><span class="radio-btn">One</span></label>
+  </div>
+
+  <div class="radio-container">
+    <input type="radio" id="two" name="level-radio" value="2">
+    <label for="two">Two</label>
+  </div>
+
+  <div class="radio-container">
+    <input type="radio" id="three" name="level-radio" value="3">
+    <label for="three">Three</label>
+  </div>
+</form>
+</div>
+
+<div id="app"></div>
   </body>
 </html>
